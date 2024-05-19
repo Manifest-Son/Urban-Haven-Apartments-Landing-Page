@@ -94,3 +94,28 @@ html{
   font-family: var(--final-font);
   color: var(--primary-color);
 }
+.about{
+  height: 50vh;
+  padding: 1rem 2rem;
+  background-color: #3d6f74;
+  height: fit-content;
+}
+@media screen and (max-width: 62.5em) {
+  .about{
+    position: relative;
+    height:fit-content;
+  }
+  
+}
+.about-title{
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-align: center;
+}
+.about-description{
+  font-size: 1.1rem;
+  font-family: var(--final-font);
+  padding: 1rem 1rem;
+}
