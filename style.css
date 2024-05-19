@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -58,4 +60,37 @@ html{
 .header-nav-link{
   text-decoration: none;
 
+}
+.intro{
+  height: 50vh;
+  background-image: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.5)), url(assets/land-page/apartment-1.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-frame{
+  padding-top: 50px;
+}
+.intro-top{
+  font-family: var(--secondary-font);
+  color: var(--last-color);
+  padding-bottom: 0.5rem;
+}
+.intro-maintitle{
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: var(--primary-font);
+  color: var(--thirdly-color);
+  text-shadow: 10px;
+  padding-bottom: 0.8rem;
+
+}
+.intro-subtitle{
+  text-transform: capitalize;
+  font-family: var(--final-font);
+  color: var(--primary-color);
 }
