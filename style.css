@@ -119,3 +119,61 @@ html{
   font-family: var(--final-font);
   padding: 1rem 1rem;
 }
+.spaces{
+  border-top: #3d6f74;
+  border-width: 2px center 70%;
+  position: absolute;
+}
+.content-spaces{
+  padding: 2rem 6rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: 2rem;
+  background-color: #faf3e3;
+}
+.content-img-icon{
+  height: 30px;
+  width: 30px;
+}
+.additions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: baseline;
+  font-size: 1rem;
+  gap: 1rem;
+}
+.spaces-description-title{
+  font-size: 2rem;
+  text-transform: uppercase ;
+  padding-bottom: 2rem;
+}
+.space-paragraph{
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.spaces-description-cta{
+  display: inline-block;
+  background-color: var(--thirdly-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  padding: 1.0rem 1.0rem;
+  border-radius: 10px;
+  text-align: justify;
+}
+.spaces-description-img{
+  width: 25rem;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+.spaces-description-img:hover{
+  transform: scale(1.02);
+}
+.spaces-description-title{
+  color: var(--last-color)
+}
