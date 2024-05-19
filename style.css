@@ -258,3 +258,58 @@ span.h2-feature{
   text-decoration: none;
   color: #888;
 }
+.physical-contacts{
+  color: var(--last-color);
+  font-size: 1.2rem;
+}
+.contact-us{
+  height: auto;
+  background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(assets/land-page/apartment-2.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 6rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: baseline;
+}
+.contact-header{
+  font-family: var(--secondary-font);
+}
+.contacts-items-img{
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  height: 2rem;
+  width: 2rem;
+}
+form{
+  border: 2px solid var(--thirdly-color);
+  border-style: hidden;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+ font-size: 1rem;
+}
+label{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.form-input{
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid var(--thirdly-color);
+  border-radius: 4px;
+}
+.form-section{
+  font-family: var(--final-font);
+  color: var(--last-color);
+}
+.button{
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  font-family: var(--secondary-font);
+  background-color: var(--secondary-color);
+  cursor: pointer;
+  float: right;
+}
