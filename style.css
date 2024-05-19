@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+:root{
+  --primary-font: "IBM Plex Serif", serif;
+  --secondary-font: "Merienda", cursive;
+  --final-font: "Poppins", sans-serif;
+  --primary-color: #30bcc9;
+  --secondary-color: #faf3e3;
+  --thirdly-color: #fada80;
+  --last-color: #f6404f;
+
+}
+html{
+  font-size: 83.333;
+  /* 1 rem = 12px */
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+
+}
