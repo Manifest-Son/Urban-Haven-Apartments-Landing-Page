@@ -313,3 +313,13 @@ label{
   cursor: pointer;
   float: right;
 }
+.footer {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.5rem;
+
+}
