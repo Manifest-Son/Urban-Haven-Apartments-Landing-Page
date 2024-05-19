@@ -21,6 +21,41 @@ html{
   font-size: 83.333;
   /* 1 rem = 12px */
   font-family: var(--primary-font);
-  font-size: 0.8rem;
+  font-size: 1rem;
+
+}
+.header{
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+  border-bottom: 3px solid var(--thirdly-color);
+  text-transform: capitalize;
+
+}
+@media screen and (max-width: 62.5em) {
+  .header{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    position: relative;
+  }
+  
+}
+.header-logo-link{
+  text-decoration: none;
+
+}
+.header-nav-list{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  
+}
+.header-nav-link{
+  text-decoration: none;
 
 }
